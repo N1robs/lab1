@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box
+}
+
+.image {
+    width: 300;
+    height: 200;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 10px
+}
+
+body {
+    
+    margin: 0 auto;
+    padding: auto, auto;
+    font-family:Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #c40b0b;
+    background-color: #f4f7f9;
+    text-align: center;
+}
+
+
+table{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+    border-collapse: collapse;
+    max-width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+table tbody tr:nth-child(odd){
+    background-color: aqua;    
+}
+@media screen and (min-width: 340px) and (max-width: 768px) {
+    th, td {
+        padding: 6px;
+        font-size: 14px;
+    }    
+}
+.spisok {
+    color: rgb(30, 54, 35);
+    background-color: blanchedalmond;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.text {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.ogl {
+    padding: 5%;
+}
